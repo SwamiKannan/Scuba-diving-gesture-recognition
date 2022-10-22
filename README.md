@@ -41,8 +41,8 @@ Google came out with [Mediapipe](https://research.google/pubs/pub48292/) in 2019
 
 ## Sample video
 <p align="center">
-<sub>Gestures will take a second to align to the correct label</sub><br>
-<img src="scuba_diving.gif">
+<img src="scuba_diving.gif"><br>
+ <sub>Gestures will take a second to align to the correct label</sub>
 </p>
 
  
