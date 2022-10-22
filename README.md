@@ -1,6 +1,9 @@
 # Scuba-diving-gesture-recognition
 Scuba diving gestures recognition using Mediapipe, cv2 and PyTorch
 
+<p align = "center">
+<img src="cover.gif">
+
 ## Inspiration
 I was always been a huge fan of Minority Report and awaited the day when we could use gestures for our day to day use. Then came [Pranav Mistry with his Sixth Sense technology](https://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology) which blew my mind. However it was too hardware focussed.
 
