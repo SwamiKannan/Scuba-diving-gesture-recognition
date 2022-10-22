@@ -15,6 +15,11 @@ Google came out with [Mediapipe](https://research.google/pubs/pub48292/) in 2019
 ### Documentation - https://google.github.io/mediapipe/
 <br>
 
+## Objective:
+To train a model to capture simple video feed from the webcam and categorize the gestures shown by the user into one of five actions:<br>
+<ol>
+<b>
+<li>Ok</li><li>Stop</li><li>Descend</li><li>Not Ok</li><li>Ascend</li><ol></b>
 
 ## Contents:
 <b>I. [Data capture](https://github.com/SwamiKannan/Scuba-diving-gesture-recognition/blob/main/I.%20Data%20capture.ipynb)</b>
