@@ -49,3 +49,4 @@ Google came out with [Mediapipe](https://research.google/pubs/pub48292/) in 2019
 </p>
 
  
+<sub>Image credit for cover image: <a href="https://giphy.com/roosterteeth"> Rooster Teeth </a> </sub>
