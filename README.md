@@ -29,17 +29,20 @@ Google came out with [Mediapipe](https://research.google/pubs/pub48292/) in 2019
 
 <b>IV. [Testing on live data](https://github.com/SwamiKannan/Scuba-diving-gesture-recognition/blob/main/IV.%20Testing%20on%20real-time%20data.ipynb)</b>
 <ul><li>Testing on live data feed</li>
-<li>Processing and storing the renders</li>
+<li>Processing and storing the renders</li></ul>
 
 ## Key learnings:
 <ul>
 <li> Mediapipe landmarks can get significantly impacted by the lighting - both at the time of data collection and at the time of inference. </li>
 <li> If you're not careful while consolidating the various frames for your input dataset, the order of labels can get scattered. After completing your one-hot encoding, run a sample check across your classes to determine its index in the encoding </li>
 <li> More samples ! I could record only 150 samples across 5 different action classes </li>
-<li> Stability over precision. Video processing has this annoying property of rapidly changing classes as frames change. So to avoid this, it takes this model about 3-4 frames before it stabilizes its prediction class. Hence, you may see a bit of jitter in the displayed result but it will immediately stabilize. I had this issue in my [object classification project](https://github.com/SwamiKannan/Formula1-car-detection)
+<li> Stability over precision. Video processing has this annoying property of rapidly changing classes as frames change. So to avoid this, it takes this model about 3-4 frames before it stabilizes its prediction class. Hence, you may see a bit of jitter in the displayed result but it will immediately stabilize. I had this issue in my [object classification project](https://github.com/SwamiKannan/Formula1-car-detection)</li></ul>
 
 
 ## Sample video
-![sample_video](scuba_diving.gif)
+<p align="center">
+<sub>Gestures will take a second to align to the correct label</sub><br>
+<img src="scuba_diving.gif">
+</p>
 
  
